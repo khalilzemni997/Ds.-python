@@ -146,7 +146,7 @@ def menu_chiffrement_cesar(text, shift):
         print("1- Cesar avec code ASCII")
         print("2- Cesar avec 26 lettres")
         print("W- Revenir au menu César")
-        choix_chiffrement = input("Sélectionnez une option (1, 2, W) : ")
+        choix_chiffrement = input("Sélectionnez une option (1, 2, W) : ").upper()
 
         if choix_chiffrement == "1":
             cesar_code_ascii(text, shift)
